@@ -23,7 +23,7 @@
         "../media/projects/android/portal/notif.webp"
       ]
   },
-    { "id": 2, "name": "Find & Drive", "status": "completed", "description": "<p><b>Purpose:</b> Key component of my <a target="_blank" href='../pages/thesis.html' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold;'></b>bachelor's thesis project.</a></p><p><b>Concept:</b> An Android app that allows users to create personal accounts, register their vehicles, and view their parking location within areas equipped with my smart parking system. User and vehicle information is stored in a MySQL database and accessed through custom APIs.</p><p><b>Technologies:</b> Android Studio, Java, Volley, MySQL, REST APIs (PHP), MD3</p>",
+    { "id": 2, "name": "Find & Drive", "status": "completed", "description": "<p><b>Purpose:</b> Key component of my <a target='_blank' href='../pages/thesis.html' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold;'></b>bachelor's thesis project.</a></p><p><b>Concept:</b> An Android app that allows users to create personal accounts, register their vehicles, and view their parking location within areas equipped with my smart parking system. User and vehicle information is stored in a MySQL database and accessed through custom APIs.</p><p><b>Technologies:</b> Android Studio, Java, Volley, MySQL, REST APIs (PHP), MD3</p>",
       "thumbnail" : {
         "link" : "../media/projects/android/findndrive/home.webp",
         "aspectRatio" : "1 / 2",
