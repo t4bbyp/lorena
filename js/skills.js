@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
                   const container = document.getElementById("skills-container");
 
-                  fetch("/../jsons/skills.json")
+                  fetch("../jsons/skills.json")
                     .then((response) => response.json())
                     .then((skills) => {
                       let row;
