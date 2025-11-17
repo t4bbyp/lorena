@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lorena's Portofolio</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Chokokutai&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/abt_me.css"/>
+    <link rel="stylesheet" href="/styles/skills.css"/>
+    <link rel="stylesheet" href="/styles/hobby.css"/>
+    <link rel="stylesheet" href="/styles/email_window.css"/>
+  </head>
+
+  <body>
+    
+    <div class="geometric-background" id="geometric-background"></div>
+    <div class="particles" id="particles"></div>
+    <div class="gradient-overlay"></div>
+    <script src="/js/particles.js"></script>
+
+    <div class="main">
+      <h1 class="ttl">Welcome!</h1>
+
+      <!--Avatar-->
+      <button
+        popovertarget="window"
+        popovertargetaction="show"
+        class="avatar"
+      ></button>
+
+      <!--Projects btns-->
+      <a class="web_btn boton" href="/pages/web.html">
+        <div class="hovy1"><div class="cursor typewriter-animation">Web Projects</div></div>
+      </a>
+      <a class="thesis_btn boton" href="/pages/thesis.html">
+        <div class="hovy2"><div class="cursor typewriter-animation">Thesis Project</div></div>
+      </a>
+      <a class="android_btn boton" href="/pages/android.html">
+        <div class="hovy3"><div class="cursor typewriter-animation">Android Projects</div></div>
+      </a>
+
+      <!--Socials-->
+      <a class="gh_btn boton" href="https://github.com/t4bbyp" target="_blank">
+        <div class="gh-hov"><div class="cursor typewriter-animation">GitHub</div></div>
+      </a>
+      <a class="linkedn_btn boton" href="https://www.linkedin.com/in/lorena-s-8929a32aa" target="_blank">
+        <div class="linkedn-hov"><div class="cursor typewriter-animation">LinkedIn</div></div>
+      </a>
+      <a class="codepen_btn boton" href="https://codepen.io/TabbyP" target="_blank">
+        <div class="code-hov"><div class="cursor typewriter-animation">CodePen</div></div>
+      </a>
+      <button class="email_btn boton" popovertarget="email-window" popovertargetaction="show">
+        <div class="mail-hov"><div class="cursor typewriter-animation">Email</div></div>
+      </button>
+
+     <!--Bio window--> 
+     <div popover="manual" id="window" class="bio-base">
+        <div class="bio">
+          <!--Side label btns-->
+          <div class="bio_btns">
+            <input id="about_me" type="radio" name="bio_tori" checked /><label
+              for="about_me"
+            ></label>
+            <input id="skills" type="radio" name="bio_tori" /><label
+              for="skills"
+            ></label>
+            <input id="hobbies" type="radio" name="bio_tori" /><label
+              for="hobbies"
+            ></label>
+          </div>
+
+          <div class="bio_container">
+            <div class="bio_navbar">
+              <button
+                class="close_btn"
+                popovertarget="window"
+                popovertargetaction="hide"
+              ></button>
+            </div>
+
+            <div class="bio_tabs">
+
+              <!--ABOUT ME tab-->
+              <div class="about_me">
+                <div class="abt_header">
+                  <div class="avatar1"></div>
+                  <div class="name">Lorena<br><span style="letter-spacing: 10px; font-style: italic; font-size: 4vmin;">Salagean</span></div>
+                </div>
+
+                <div class="abt_text">
+                  <p>
+                    Hi, I'm Lorena — a recent Electronics Engineering graduate
+                    with a growing passion for software development. My background
+                    bridges both electronics and programming, giving me a flexible
+                    foundation for IT and development roles. <br /><br />
+                    I started exploring web design at 13 by customizing HTML/CSS
+                    templates on phpBB forums. Later in high school, even though I
+                    was in the Natural Sciences specialization, the small amount
+                    of programming we did was enough to make me choose Informatics
+                    as my third subject for the Baccalaureate exam, knowing I
+                    wanted to pursue that field further.
+                    <br /><br />
+                    Most of my knowledge comes from real, hands-on projects, which
+                    has shaped my approach, I thrive when I can directly apply what
+                    I'm learning. I find that solving problems and addressing
+                    needs as they arise helps me retain knowledge and turn complex
+                    ideas into practical solutions.
+                    <br /><br />
+                    While I'm exploring the wide range of roles in tech, I'm
+                    especially interested in applying my skills in software
+                    development—whether that's web, mobile, or backend. I see
+                    myself as a flexible developer, ready to take on challenges,
+                    learn quickly, and grow into a specialized role through
+                    real-world experience.
+                  </p>
+                </div>
+              </div>
+
+              <!--SKILLS tab-->
+              <div class="skills">
+                <div class="skill-ttl">Unlocked Achievements</div>
+
+                <div style="display: flex; flex-direction: column; height: 100%; gap: 0px; align-items: center; flex-grow: 0 !important; width: 85%; overflow: hidden;">
+                  <div class="yes">
+                    <div class="skills-area">
+                      <div id="skills-container"></div>
+                    </div>
+
+                    <div class="todo">
+                        <button class="todo_expand">See My ToDo List</button>
+                        <div class="todo_content">
+                            <div style="height: 70%; overflow: hidden; padding: 20px;">
+                              <ul>
+                                <li>Full-stack development</li>
+                                <li>Improving UI/UX design Skills</li>
+                                <li>QA testing</li>
+                                <li>Golang</li>
+                                <li>React</li>
+                                <li>TypeScript</li>
+                                <li>Kotlin for Android </li>
+                                <li>C/C++/C#</li>
+                                <li>PostgreSQL</li>
+                                <li>Node.js</li>
+                              </ul>
+                          </div>
+                        </div> 
+                    </div>
+                  </div>
+
+                  <div class="todo_info">
+                     This is a list of languages, frameworks and/or additional technologies/skills I'm currently interested in or wish to learn.
+                      <br />
+                      The order displayed here is arbitrary and doesn't represent priority or progress.
+                      <br />
+                      My interests aren't limited to this list and, if needed, I'm always happy to learn something different or unrelated to my current knowledge!
+                    </div>
+
+                </div>
+
+              </div>
+
+              <!-- Skill list -->
+              <script src="/js/skills.js"> </script>
+
+              <!--HOBBIES tab-->
+              <div class="hobbies">
+                <div class="hobby-ttl">Hobbies</div>
+                <div class="hobbies_container">
+                  <div class="hobby-list">
+                    <input id="hobby1" type="radio" name="tori-hobby" checked /><label for="hobby1">Writing</label>
+                    <input id="hobby2" type="radio" name="tori-hobby"  /><label for="hobby2">Reading</label>
+                    <input id="hobby3" type="radio" name="tori-hobby"  /><label for="hobby3">Gaming</label>
+                    <input id="hobby4" type="radio" name="tori-hobby"  /><label for="hobby4">Crochet</label>
+                    <input id="hobby5" type="radio" name="tori-hobby"  /><label for="hobby5">Music</label>
+                    <!--
+                    <input id="hobby6" type="radio" name="tori-hobby"  /><label for="hobby6">Horse riding</label>
+                    -->
+                  </div>
+                  <div class="hobby-desc">
+                    <div class="hobby1">
+                      <div class="hobby-text">
+                        I've loved writing since I was 11 — from original stories to collaborative role-plays (similar to DnD) on online forums.  
+                        It helped me develop creativity and also introduced me to web design through customizing forum layouts and character sheets.  
+                        I enjoy world-building in medieval fantasy and post-apocalyptic settings.
+                      </div>
+                      <img src="/media/writing.webp" class="hobby-img">
+                    </div>
+                    <div class="hobby2">
+                      <div class="hobby-text">
+                        My passion for reading surfaced when I was 10, finding fantasy and supernatural stories in both medieval and modern settings
+                        especially entertaining.  
+                        My favorite series is <i>The Wardstone Chronicles</i> by Joseph Delaney, and I also enjoy crime fiction,
+                         particularly Camilla Läckberg's work.  
+                        Reading keeps me inspired and fuels the world-building ideas behind many of my own creative projects.
+                      </div>
+                      <img src="/media/reading.webp" class="hobby-img">
+                    </div>
+                    <div class="hobby3">
+                      <div class="hobby-text">
+                        I've been passionate about gaming since childhood, with a strong preference for single-player FPS and RPG titles.  
+                        The Assassin's Creed series is a personal favorite, though I also enjoy multiplayer games like MMORPGs, 
+                        League of Legends, and CS2.  
+                        Character creation is one of my favorite parts of gaming, and it naturally ties into my passion for 
+                        building new stories and worlds.
+                      </div>
+                      <img src="/media/gaming.webp" class="hobby-img">
+                    </div>
+                    <div class="hobby4">
+                      <div class="hobby-text">
+                        Crochet is a hobby that I picked up only a couple of years ago, inspired by one of my friends. 
+                        I don't practice it very often, as I prefer having a specific need or purpose for any project I start and I tend to think it overflow
+                        a lot, but I really enjoy it and I find crocheting very relaxing and therapeutic.
+                      </div>
+                      <img src="/media/crochet.webp" class="hobby-img">
+                    </div>
+                    <div class="hobby5">
+                      <div class="hobby-text">
+                        Music has always been a constant in my life. I listen to it most of the time (even in the background) 
+                        and it always fuels me with energy.  
+                        Over the years, I've grown more interested in it than I ever expected. I enjoyed learning about music history, 
+                        played a wooden bass xylophone in school, and I'm currently playing both the soprano and alto recorder.  
+                        Even without formal training, exploring music has become a meaningful and steady interest for me.
+                      </div>
+                      <img src="/media/music.webp" class="hobby-img">
+                    </div>
+                    <!--
+                    <div class="hobby6">
+                      <div class="hobby-text">
+
+                      </div>
+                      <img src="/media/horse.webp" class="hobby-img">
+                    </div>
+                    -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EMAIL window-->
+      <div popover="manual" id="email-window">
+        <div class="email-tab">
+          <div class="email-navbar">
+            <button
+                  class="email-close"
+                  popovertarget="email-window"
+                  popovertargetaction="hide"
+                ></button>
+          </div>
+
+          <div class="email-stuff">
+            <p>s.s.lorena.m@gmail.com</p>
+            
+            <div class="email-btns">
+              <button onClick="copyEmail()" class="do-email">Copy</button>
+              <a href="mailto:s.s.lorena.m@gmail.com" class="do-email">Send message</a>
+            </div>
+            
+            <!--Do stuff w the email-->
+            <script>
+              const email = "s.s.lorena.m@gmail.com";
+
+              function copyEmail() {
+                navigator.clipboard.writeText(email);
+                alert("Copied the text: " + email);
+              }
+            </script>
+          </div>
+
+        </div>
+      </div>
+
+      <!--CREDITOS-->
+      <div class="cr">
+        <div class="credits">
+          <p>Most of the design, images, art, and text found in this portofolio were created by me, except for the background animation (originally made by <a href="https://codepen.io/bogdansandu/pen/yyLoZRb">Bogdan Sandu</a> on CodePen),
+            the images slider in project tabs that is based on <a href="https://codepen.io/GreenSock/pen/gOvvJee">GSAP's system</a> 
+            and the icons in the Skills tab of my Bio window, which belong to each of their owners.</p>
+
+          <p>Most visual assets used in my CodePen projects (linked <a href="https://codepen.io/TabbyP">here</a>) were sourced from various online platforms. 
+            I do not claim ownership of those images, and credits go to their respective creators. 
+            Each project includes a disclaimer when applicable.</p>
+        </div>
+        <button class="credit-close">c</button>
+      </div>
+      
+      <script>
+        const crBtn = document.querySelector(".credit-close");
+        const credit = document.querySelector(".credits");
+        let ok = 0;
+
+        crBtn.addEventListener("click", () => {
+          if (ok == 0) {
+            credit.style.display = "block";
+            ok = 1;
+          } else {
+            credit.style.display = "none";
+            ok = 0;
+          }
+        })
+      </script>
+    </div>
+  </body>
+</html>
