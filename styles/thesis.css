@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  cursor: url("/media/cursor_small2.png"), auto;
+  cursor: url("../media/cursor_small2.png"), auto;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -52,7 +52,7 @@ body {
 .rectangle {
   width: 50px;
   height: 50px;
-  background-image: url(/shapes/star.svg);
+  background-image: url(../shapes/star.svg);
   animation: slide 18s infinite linear;
   background-repeat: no-repeat;
   opacity: 0.8;
@@ -90,14 +90,14 @@ body {
 html,
 body,
 * {
-  cursor: url("/media/cursor_small2.png"), auto;
+  cursor: url("../media/cursor_small2.png"), auto;
 }
 
 html,
 body {
   height: 100%;
   min-height: 100vh;
-  cursor: url("/media/cursor_small2.png"), auto;
+  cursor: url("../media/cursor_small2.png"), auto;
 }
 
 /* width */
@@ -126,7 +126,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  cursor: url("/media/cursor_small2.png"), auto;
+  cursor: url("../media/cursor_small2.png"), auto;
   z-index: 5;
   position: relative;
 }
@@ -144,13 +144,13 @@ body {
 .back-btn {
   width: 5vw; 
   height: 5vw; 
-  background: url(/media/back.webp); 
+  background: url(../media/back.webp); 
   border-radius: 100%; 
   display: block; 
   position: absolute; 
   top: 0;
   margin-left: 5%;
-  cursor: url(/media/cursor_big2.png), auto;
+  cursor: url(../media/cursor_big2.png), auto;
   background-size: contain;
   transform: rotate(90deg);
   border: 5px solid white;
@@ -256,13 +256,13 @@ body {
 
 
 .cursor {
-  cursor: url(/media/cursor_big2.png), auto;
+  cursor: url(../media/cursor_big2.png), auto;
 }
 
 
 .prev,
 .next {
-  cursor: url(/media/cursor_big2.png), auto;
+  cursor: url(../media/cursor_big2.png), auto;
   position: absolute;
   top: 40%;
   width: auto;
@@ -307,7 +307,7 @@ a {
   border-radius: 100%;
   border: 3px solid white;
   background-color: #fc5d5f;
-  cursor: url("/media/cursor_big2.png"), auto !important;
+  cursor: url("../media/cursor_big2.png"), auto !important;
   z-index: 10;
 }
 
