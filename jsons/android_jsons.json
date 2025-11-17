@@ -11,54 +11,54 @@
   "projects": [
     { "id": 1 , "name": "Portal", "status": "completed", "description": "<p><b>Purpose:</b> Internal learning project developed during my time at Exnor Soft, aimed at gaining hands-on experience with app development and API integration.</p><p><b>Concept:</b> An Android application that allows users to connect to the websites they own by logging in with their credentials. These are stored locally to maintain an active session, and users can switch between their websites at any time. The app uses a WebView to display the selected site.</p><p><b>Technologies:</b> Android Studio, Java, Volley, SQLite, Material Design 3, Firebase Messaging, WebViews.</p><p><b>Collaboration:</b> Developed as part of a team. I was responsible for building the Android application and coordinating with colleagues who had developed the websites and APIs. Their support helped ensure smooth integration between the app and backend services.</p>",
       "thumbnail" : {
-        "link" : "/../media/projects/android/portal//welcome.webp",
+        "link" : "../media/projects/android/portal//welcome.webp",
         "aspectRatio" : "1 / 2",
         "width" : "10%"
       },
       "imgs" : [
-        "/../media/projects/android/portal/welcome.webp",
-        "/../media/projects/android/portal/login.webp",
-        "/../media/projects/android/portal/menu.webp",
-        "/../media/projects/android/portal/admin.webp",
-        "/../media/projects/android/portal/notif.webp"
+        "../media/projects/android/portal/welcome.webp",
+        "../media/projects/android/portal/login.webp",
+        "../media/projects/android/portal/menu.webp",
+        "../media/projects/android/portal/admin.webp",
+        "../media/projects/android/portal/notif.webp"
       ]
   },
-    { "id": 2, "name": "Find & Drive", "status": "completed", "description": "<p><b>Purpose:</b> Key component of my <a href='/../pages/thesis.html' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold;'></b>bachelor's thesis project.</a></p><p><b>Concept:</b> An Android app that allows users to create personal accounts, register their vehicles, and view their parking location within areas equipped with my smart parking system. User and vehicle information is stored in a MySQL database and accessed through custom APIs.</p><p><b>Technologies:</b> Android Studio, Java, Volley, MySQL, REST APIs (PHP), MD3</p>",
+    { "id": 2, "name": "Find & Drive", "status": "completed", "description": "<p><b>Purpose:</b> Key component of my <a href='../pages/thesis.html' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold;'></b>bachelor's thesis project.</a></p><p><b>Concept:</b> An Android app that allows users to create personal accounts, register their vehicles, and view their parking location within areas equipped with my smart parking system. User and vehicle information is stored in a MySQL database and accessed through custom APIs.</p><p><b>Technologies:</b> Android Studio, Java, Volley, MySQL, REST APIs (PHP), MD3</p>",
       "thumbnail" : {
-        "link" : "/../media/projects/android/findndrive/home.webp",
+        "link" : "../media/projects/android/findndrive/home.webp",
         "aspectRatio" : "1 / 2",
         "width" : "10%"
       },
       "imgs" : [
-        "/../media/projects/android/findndrive/login.webp",
-        "/../media/projects/android/findndrive/register.webp",
-        "/../media/projects/android/findndrive/home.webp",
-        "/../media/projects/android/findndrive/profile.webp",
-        "/../media/projects/android/findndrive/list.webp",
-        "/../media/projects/android/findndrive/info.webp",
-        "/../media/projects/android/findndrive/settings.webp"
+        "../media/projects/android/findndrive/login.webp",
+        "../media/projects/android/findndrive/register.webp",
+        "../media/projects/android/findndrive/home.webp",
+        "../media/projects/android/findndrive/profile.webp",
+        "../media/projects/android/findndrive/list.webp",
+        "../media/projects/android/findndrive/info.webp",
+        "../media/projects/android/findndrive/settings.webp"
       ]
     },
     { "id": 3, "name": "Rent Manager", "status": "in progress", "description": "<p><b>Purpose:</b> Personal learning project to explore and apply a wide range of Android development features.</p><p><b>Concept:</b> An Android application tailored for the real estate sector, designed primarily for property owners. The app allows users to register and manage properties—including buildings and land—by inputting key details such as price, status (rent/sale), area, number of rooms, and address. A dedicated map page integrates the Google Maps Platform to visually display property locations. Additionally, the app includes a Contacts section for managing client information (name, phone number, email). customers (phone number, email, name).</p><p><b>Technologies:</b> Android Studio, Java, Volley, MD3, REST APIs (PHP), MySQL, ngrok, Google Maps Platform.</p><p><b>Planned Features:</b><ul style='padding-left: 3vw; margin-bottom: 0;'><li>Link contacts (clients) to their respective properties.</li><li>Upload and view property images and related documents.</li><li>Separate login system for clients.</li><li>Rent payment system integrated into the app.</li><li>Payment logs for tracking transaction history</li><li>In-app chat functionality between owners and clients</li></ul></p>",
       "thumbnail" : {
-        "link" : "/../media/projects/android/rm/login.webp",
+        "link" : "../media/projects/android/rm/login.webp",
         "aspectRatio" : "1 / 2",
         "width" : "10%"
       },
       "imgs" : [
-        "/../media/projects/android/rm/login.webp",
-        "/../media/projects/android/rm/register.webp",
-        "/../media/projects/android/rm/home.webp",
-        "/../media/projects/android/rm/plist.webp",
-        "/../media/projects/android/rm/filter.webp",
-        "/../media/projects/android/rm/pnew.webp",
-        "/../media/projects/android/rm/pinfo.webp",
-        "/../media/projects/android/rm/clist.webp",
-        "/../media/projects/android/rm/cnew.webp",
-        "/../media/projects/android/rm/cinfo.webp",
-        "/../media/projects/android/rm/map.webp",
-        "/../media/projects/android/rm/map2.webp",
-        "/../media/projects/android/rm/settings.webp"
+        "../media/projects/android/rm/login.webp",
+        "../media/projects/android/rm/register.webp",
+        "../media/projects/android/rm/home.webp",
+        "../media/projects/android/rm/plist.webp",
+        "../media/projects/android/rm/filter.webp",
+        "../media/projects/android/rm/pnew.webp",
+        "../media/projects/android/rm/pinfo.webp",
+        "../media/projects/android/rm/clist.webp",
+        "../media/projects/android/rm/cnew.webp",
+        "../media/projects/android/rm/cinfo.webp",
+        "../media/projects/android/rm/map.webp",
+        "../media/projects/android/rm/map2.webp",
+        "../media/projects/android/rm/settings.webp"
       ]
     }
   ]
