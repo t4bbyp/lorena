@@ -15,7 +15,7 @@
     [5, 6]
   ],
   "projects": [
-    { "id": 1 , "name": "Snake Game", "status": "completed", "description": "<p><b>Link:</b> <a href='https://codepen.io/TabbyP/pen/WbwRVNB' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>Snake CodePen</a></p><p><b>Description:</b> Based on the classic Snake game, this is one of the great practical projects within the <a href='https://exercism.org/courses/front-end-fundamentals'>Exercism Bootcamp</a>. When the game starts, a small snake appears on the screen and it can be moved using the arroy keys on the keyboard. A white particle appears on random parts of the game area, for the snake to eat said particles and grow longer. If the snake's head clashes with the edge of the area or against its own body, the game ends on a loss.</a><p><b>Technologies:</b> HTML, CSS, JS.",
+    { "id": 1 , "name": "Snake Game", "status": "completed", "description": "<p><b>Link:</b> <a target='_blank' href='https://codepen.io/TabbyP/pen/WbwRVNB' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>Snake CodePen</a></p><p><b>Description:</b> Based on the classic Snake game, this is one of the great practical projects within the <a target='_blank' href='https://exercism.org/courses/front-end-fundamentals'>Exercism Bootcamp</a>. When the game starts, a small snake appears on the screen and it can be moved using the arroy keys on the keyboard. A white particle appears on random parts of the game area, for the snake to eat said particles and grow longer. If the snake's head clashes with the edge of the area or against its own body, the game ends on a loss.</a><p><b>Technologies:</b> HTML, CSS, JS.",
       "thumbnail" : {
         "link" : "../media/projects/web/snake/start.webp",
         "aspectRatio" : "2/1",
@@ -27,7 +27,7 @@
         "../media/projects/web/snake/loss.webp"
       ]
   },
-    { "id": 2, "name": "Breakout Game", "status": "completed", "description": "<p><b>Link:</b> <a href='https://codepen.io/TabbyP/pen/MYyJNWw' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>Breakout CodePen</a></p><p><b>Description:</b> Based on the classic Breakout game, this is one of the great practical projects within the <a href='https://exercism.org/courses/front-end-fundamentals'>Exercism Bootcamp</a>. It involves creating a few rows of colored blocks and a ball that moves around, bouncing off the game area's edges and a paddle, breaking the blocks on touch and displaying different messages based on a win or a loss.</a><p><b>Technologies:</b> HTML, CSS, JS.",
+    { "id": 2, "name": "Breakout Game", "status": "completed", "description": "<p><b>Link:</b> <a href='https://codepen.io/TabbyP/pen/MYyJNWw' target='_blank' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>Breakout CodePen</a></p><p><b>Description:</b> Based on the classic Breakout game, this is one of the great practical projects within the <a target='_blank' href='https://exercism.org/courses/front-end-fundamentals'>Exercism Bootcamp</a>. It involves creating a few rows of colored blocks and a ball that moves around, bouncing off the game area's edges and a paddle, breaking the blocks on touch and displaying different messages based on a win or a loss.</a><p><b>Technologies:</b> HTML, CSS, JS.",
       "thumbnail" : {
         "link" : "../media/projects/web/breakout/start.webp",
         "aspectRatio" : "2/1",
@@ -40,7 +40,7 @@
         "../media/projects/web/breakout/loss.webp"
       ]
     },
-    { "id": 3, "name": "Old portofolio", "status": "completed", "description": "<p><b>Link:</b> <a href='https://t4bbyp.github.io/portofolio/index.html' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>Portofolio 1.0</a></p><p><b>Description:</b> My first portofolio website showcasing previous projects and skills.<p><b>Technologies:</b> HTML, CSS, Bootstrap 5.",
+    { "id": 3, "name": "Old portofolio", "status": "completed", "description": "<p><b>Link:</b> <a href='https://t4bbyp.github.io/portofolio/index.html' target='_blank' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>Portofolio 1.0</a></p><p><b>Description:</b> My first portofolio website showcasing previous projects and skills.<p><b>Technologies:</b> HTML, CSS, Bootstrap 5.",
       "thumbnail" : {
         "link" : "../media/projects/web/old-porto/index.webp",
         "aspectRatio" : "2/1",
@@ -53,7 +53,7 @@
         "../media/projects/web/old-porto/project.webp"
       ]
     }, 
-    { "id": 4, "name": "La Torre", "status": "completed", "description": "<p><b>Forum version:</b> phpBB3</p><p><b>Hosted by:</b> <a href='https://www.foroactivo.com' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold;'>ForoActivo</a></p><p><b>Link: </b> <a href='https://latorre.foroactivo.com' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold;'>La Torre</a></p><p><b>Purpose:</b> Collaborative redesign project for a long-standing narrative role-play forum, working alongside other users to refresh its visual identity and user experience.</p><p><b>Technologies: </b>HTML, CSS, and JavaScript — integrated through ForoActivo’s customization panel, which allows access to HTML templates, the main CSS file, and additional JS scripting.</p><p><b>My Role:</b> Contributed to HTML and CSS adjustments for layout and structure, and collaborated on selecting images and defining the color palette for a cohesive visual theme.</p>",
+    { "id": 4, "name": "La Torre", "status": "completed", "description": "<p><b>Forum version:</b> phpBB3</p><p><b>Hosted by:</b> <a target='_blank' href='https://www.foroactivo.com' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold;'>ForoActivo</a></p><p><b>Link: </b> <a target='_blank' href='https://latorre.foroactivo.com' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold;'>La Torre</a></p><p><b>Purpose:</b> Collaborative redesign project for a long-standing narrative role-play forum, working alongside other users to refresh its visual identity and user experience.</p><p><b>Technologies: </b>HTML, CSS, and JavaScript — integrated through ForoActivo’s customization panel, which allows access to HTML templates, the main CSS file, and additional JS scripting.</p><p><b>My Role:</b> Contributed to HTML and CSS adjustments for layout and structure, and collaborated on selecting images and defining the color palette for a cohesive visual theme.</p>",
       "thumbnail" : {
         "link" : "../media/projects/web/torre/index.webp",
         "aspectRatio" : "2/1",
@@ -86,7 +86,7 @@
         "../media/projects/web/foro/login.webp"
       ]
     },
-    { "id": 6, "name": "More", "status": "neverending", "description": "<p><b>Link:</b> <a href='https://codepen.io/TabbyP' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>CodePen Profile</a></p><p><b>Description:</b> My Codepen page where I collect different small works of mine I have made since I learned HTML/CSS in 2014, mostly for my narrative RPG hobby, up until present. Please, feel free to check it out!",
+    { "id": 6, "name": "More", "status": "neverending", "description": "<p><b>Link:</b> <a target='_blank' href='https://codepen.io/TabbyP' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>CodePen Profile</a></p><p><b>Description:</b> My Codepen page where I collect different small works of mine I have made since I learned HTML/CSS in 2014, mostly for my narrative RPG hobby, up until present. Please, feel free to check it out!",
       "thumbnail" : {
         "link" : "../media/projects/web/more/tmbn.webp",
         "aspectRatio" : "2/1",
