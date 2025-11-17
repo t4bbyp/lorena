@@ -50,7 +50,7 @@
     padding: 20px;
     font-size: 1.5vmin;
     transition: all 0.4s ease-in-out;
-    cursor: url(/media/cursor_big.png), auto;
+    cursor: url(media/cursor_big.png), auto;
 }
 
 .hobby-list label:hover {
