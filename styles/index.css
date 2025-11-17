@@ -579,6 +579,7 @@ body {
   display: flex; 
   align-items: end; 
   bottom: 7%;
+  cursor: url(../media/cursor_small.png), auto !important;
 }
 
 .credits {
@@ -606,7 +607,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 0;
-  cursor: url(../media/cursor_big2.png), auto;
+  cursor: url(../media/cursor_big.png), auto;
 }
 
 
