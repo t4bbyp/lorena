@@ -34,7 +34,7 @@
   height: 22px;
   background: #fc5d5f;
   border-radius: 10px;
-  cursor: url(/media/cursor_big.png), auto;
+  cursor: url(../media/cursor_big.png), auto;
   border: 2px solid white;
   float: right;
   margin-right: 5px;
@@ -68,7 +68,7 @@
     border: 3px solid #a2d2ff;
     text-decoration: none;
     color: black;
-    cursor: url(/media/cursor_big.png), auto;
+    cursor: url(..media/cursor_big.png), auto;
     border-radius: 10px;
     font-family: 'Space Grotesk';
 }
