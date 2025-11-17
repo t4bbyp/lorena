@@ -23,7 +23,7 @@
     min-height: 120px;
     width: 12vw;
     height: 12vw;
-    background-image: url(/media/avatar.webp);
+    background-image: url(../media/avatar.webp);
   }
 
   .name {
