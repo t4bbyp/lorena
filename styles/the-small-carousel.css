@@ -28,14 +28,14 @@
 }
 
 .box_inner {
-  cursor: url(/media/cursor_big2.png), auto;
+  cursor: url(../media/cursor_big2.png), auto;
   width: 100%;
   height: 100%;
 }
 
 .small-prev,
 .small-next {
-  cursor: url(/media/cursor_big2.png), auto;
+  cursor: url(../media/cursor_big2.png), auto;
   position: absolute;
   color: white;
   font-size: 13px;
