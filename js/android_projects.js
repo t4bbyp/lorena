@@ -34,6 +34,7 @@
                         d.style.background = `url(${projects[l.id-1].thumbnail.link})`;
                         d.style.aspectRatio = `${projects[l.id-1].thumbnail.aspectRatio}`;
                         d.style.width = `${projects[l.id-1].thumbnail.width}`;
+                        d.setAttribute("aria-label", `Open project ${projects[l.id - 1].name}`);
 
                         //Open project info tab
                         d.addEventListener('click', () => {
@@ -44,7 +45,7 @@
                             const projy = document.createElement("div");
                             projy.classList.add("project-base");
                             projy.innerHTML = `
-                                <button class="close_btn"></button>
+                                <button class="close_btn" aria-label="Close project tab"></button>
                                 <h1 class="project-ttl">${projects[id].name}</h1>
                                 <span class="project-status">${projects[id].status}</span>
                                 
