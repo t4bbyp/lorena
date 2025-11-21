@@ -26,7 +26,7 @@
 
                         // Add levels
                         levels.forEach(l => {
-                        const d = document.createElement('div');
+                        const d = document.createElement('button');
                         d.className = 'level';
                         d.style.left = `${l.x}%`;
                         d.style.top  = `${l.y}%`;
