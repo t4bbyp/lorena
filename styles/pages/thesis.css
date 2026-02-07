@@ -1,0 +1,34 @@
+.project-tab {
+  display: block !important;
+}
+
+.project-base {
+  width: 80% !important;
+}
+
+
+.project-info {
+  width: 90% !important;
+  gap: 10px;
+}
+
+.carousel {
+  min-height: 47vh !important;
+  height: 490px !important;
+}
+
+.project-desc {
+  max-height: 50vh !important;
+  min-height: 47vh !important;
+  height: 470px !important;
+  padding: 10px 20px;
+}
+
+.imege {
+  width: 100% !important;
+  aspect-ratio: 2 / 1;
+}
+
+.img-container {
+  aspect-ratio: 2/1;
+}

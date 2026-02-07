@@ -1,7 +1,7 @@
 .about_me {
   display: flex;
   flex-direction: column;
-  background: #bbd0ff;
+  background: var(--bio-bg);
   gap: 30px;
 
   .abt_header {

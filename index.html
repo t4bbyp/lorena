@@ -9,16 +9,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Chokokutai&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
     
+
+    <link rel="stylesheet" href="styles/vars.css"/>
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/abt_me.css"/>
     <link rel="stylesheet" href="styles/skills.css"/>
     <link rel="stylesheet" href="styles/hobby.css"/>
+    <link rel="stylesheet" href="styles/certs.css"/>
     <link rel="stylesheet" href="styles/email_window.css"/>
   </head>
 
@@ -66,25 +70,25 @@
         My Codepen
         <div class="code-hov"><div class="cursor typewriter-animation">CodePen</div></div>
       </a>
+      <!--
       <button class="email_btn boton" popovertarget="email-window" popovertargetaction="show">
         My email
         <div class="mail-hov"><div class="cursor typewriter-animation">Email</div></div>
       </button>
+      -->
 
      <!--Bio window--> 
      <div popover="manual" id="window" class="bio-base">
         <div class="bio">
           <!--Side label btns-->
           <div class="bio_btns">
-            <input id="about_me" type="radio" name="bio_tori" checked /><label
-              for="about_me"
-            >About Me</label>
-            <input id="skills" type="radio" name="bio_tori" /><label
-              for="skills"
-            >Skills</label>
-            <input id="hobbies" type="radio" name="bio_tori" /><label
-              for="hobbies"
-            >Hobbies</label>
+            <input id="about_me" type="radio" name="bio_tori" checked />
+            <label for="about_me"><span>About me</span></label>
+
+            <input id="skills" type="radio" name="bio_tori" />
+            <label for="skills"><span>Skills</span></label>
+            <input id="certificates" type="radio" name="bio_tori"/>
+            <label for="certificates"><span>Certificates</span></label>
           </div>
 
           <div class="bio_container">
@@ -153,7 +157,7 @@
                     </div>
                   </div>
 
-                  <div class="todo_info">
+                  <div class="todo_info p-3">
                      This is a list of languages, frameworks and/or additional technologies/skills I'm currently interested in or wish to learn.
                       <br />
                       The order displayed here is arbitrary and doesn't represent priority or progress.
@@ -240,12 +244,74 @@
                   </div>
                 </div>
               </div>
+
+
+              <!-- CERTS tab -->
+              <div class="certificates">
+                <div class="cert-ttl">Certificates</div>
+
+                <div class="cert-container">
+                  <div class="cert-gallery">
+                    <div class="row">
+                      <div class="column">
+                        <img src="/media/certs/uides.webp" class="cert-img" alt="UI/UX Design Certificate">
+                      </div>
+                      <div class="column">
+                        <img src="/media/certs/exercism1.webp" class="cert-img" alt="Exercism Bootcamp Certificate - Coding Fundamentals">
+                      </div>
+                      <div class="column">
+                        <img src="/media/certs/exercism2.webp" class="cert-img" alt="Exercism Bootcamp Certificate - Front-End Fundamentals">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
+
+        <!-- CERT MODAL -->
+        <div popover="manual" id="certModal" class="cert-modal">
+          <div class="cert-modal-backdrop"></div>
+          <div class="cert-modal-content">
+            <button class="cert-close-btn"></button>
+            <img id="certModalImg" src="" alt="Certificate preview">
+          </div>
+        </div>
+
+          <script>
+            const modal = document.getElementById("certModal");
+            const modalImg = document.getElementById("certModalImg");
+            const certCloseBtn = document.querySelector(".cert-close-btn");
+            const backdrop = document.querySelector(".cert-modal-backdrop");
+
+            document.querySelectorAll(".cert-img").forEach(img => {
+              img.addEventListener("click", () => {
+                modalImg.src = img.src;
+                modal.showPopover();
+                document.body.style.overflow = "hidden";
+              });
+            });
+
+            function closeModal() {
+              modal.hidePopover();
+              modalImg.src = "";
+              document.body.style.overflow = "";
+            }
+
+            certCloseBtn.addEventListener("click", closeModal);
+            backdrop.addEventListener("click", closeModal);
+
+            document.addEventListener("keydown", (e) => {
+              if (e.key === "Escape" && modal.matches(':popover-open')) {
+                closeModal();
+              }
+            });
+        </script>
       </div>
 
-      <!-- EMAIL window-->
+      <!-- EMAIL window
       <div popover="manual" id="email-window">
         <div class="email-tab">
           <div class="email-navbar">
@@ -264,7 +330,6 @@
               <a href="mailto:s.s.lorena.m@gmail.com" class="do-email">Send message</a>
             </div>
             
-            <!--Do stuff w the email-->
             <script>
               const email = "s.s.lorena.m@gmail.com";
 
@@ -277,8 +342,9 @@
 
         </div>
       </div>
+      -->
 
-      <!--CREDITOS-->
+      <!--CREDITS-->
       <div class="cr">
         <div class="credits">
           <p>Most of the design, images, art, and text found in this portofolio were created by me, except for the background animation (originally made by <a href="https://codepen.io/bogdansandu/pen/yyLoZRb" target="_blank">Bogdan Sandu</a> on CodePen),

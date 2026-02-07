@@ -1,0 +1,40 @@
+.level {
+  aspect-ratio: 1/2 !important;
+  background-size: contain !important;
+}
+
+.project-base {
+  width: 60% !important;
+  transform: translateX(-50%) translateY(-33%) !important;
+}
+
+
+.project-info {
+  width: 100% !important;
+  justify-content: space-evenly !important;
+}
+
+.carousel {
+  width: 30% !important;
+}
+
+.project-desc {
+  width: 50% !important;
+}
+
+.desc {
+  padding: 20px !important;
+}
+
+.imege {
+  max-height: auto !important;
+  aspect-ratio: 1/2 !important;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}

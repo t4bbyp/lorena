@@ -1,27 +1,11 @@
 body {
   padding: 0;
   margin: 0;
-  cursor: url("../media/cursor_small.png"), auto;
+  cursor: var(--cursor-small);
   width: 100%;
   height: 100%;
   overflow: hidden;
   background: #ffc8dd;
-}
-
-.geometric-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.shape {
-  position: absolute;
-  opacity: 0.35;
-  transform-origin: center;
 }
 
 .square {
@@ -29,51 +13,6 @@ body {
   height: 40px;
   background: #00fa85;
   animation: rotate 20s infinite linear;
-}
-
-.circle {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: #4c85f0;
-  animation: pulse 15s infinite alternate;
-}
-
-.triangle {
-  width: 0;
-  height: 0;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  border-bottom: 50px solid #7209b7;
-  animation: float 12s infinite ease-in-out;
-}
-
-.rectangle {
-  width: 50px;
-  height: 50px;
-  background-image: url(../shapes/star.svg);
-  animation: slide 18s infinite linear;
-  background-repeat: no-repeat;
-  opacity: 0.8;
-}
-
-.particles {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-
-.particle {
-  position: absolute;
-  width: 3px;
-  height: 3px;
-  border-radius: 100%;
-  background-color: white;
-  opacity: 1;
-  animation: sparkle 8s infinite linear;
 }
 
 .gradient-overlay {
@@ -90,44 +29,21 @@ body {
 html,
 body,
 * {
-  cursor: url("../media/cursor_small.png"), auto;
-}
-
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: transparent !important;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #b9fbc0;
-  border-radius: 10px;
-  border: 2px solid white;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #84dcc6;
+  cursor: var(--cursor-small);
 }
 
 html,
 body {
   height: 100%;
   min-height: 100vh;
-  cursor: url("../media/cursor_small.png"), auto;
+  cursor: var(--cursor-small);
 }
 
 .main {
   width: 100%;
   height: 100%;
   margin: 0;
-  cursor: url("../media/cursor_small.png"), auto;
+  cursor: var(--cursor-small);
   z-index: 5;
   position: relative;
 }
@@ -139,7 +55,7 @@ body {
   font-size: 7vmin;
   font-style: italic;
   color: white;
-  text-shadow: 0 0 5px rgb(50, 34, 190);
+  text-shadow: var(--title-shadow);
 }
 
 .avatar {
@@ -154,15 +70,15 @@ body {
   border-radius: 100%;
   border: 8px solid white;
   background-size: 120%;
-  box-shadow: 0 0 10px 3px rgba(207, 42, 125, 0.3),
-    inset 0px 0px 5px 1px black;
+  box-shadow: 0 0 10px 3px rgba(207, 42, 125, 0.1),
+    inset 0px 0px 5px 1px rgba(74, 149, 208, 0.8);
 
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: 1;
-  cursor: url("../media/cursor_big.png"), auto !important;
+  cursor: var(--cursor-big);
   transition: 0.3s ease-in-out;
 }
 
@@ -181,7 +97,8 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  cursor: url("../media/cursor_small.png"), auto !important;
+  backdrop-filter: blur(2px);
+  cursor: var(--cursor-small);
   border: none;
 }
 
@@ -233,7 +150,7 @@ body {
   background-color: #ffce74;
   display: block;
   margin-bottom: 10px;
-  cursor: url("../media/cursor_big.png"), auto !important;
+  cursor: var(--cursor-small);
   position: relative;
   left: -2vw;
   z-index: 0;
@@ -242,8 +159,10 @@ body {
 
   background-repeat: no-repeat;
   background-position: 80% center;
+}
 
-  color: transparent;
+.bio_btns label span {
+  visibility: hidden;
 }
 
 .bio_btns label:nth-of-type(1) {
@@ -310,7 +229,14 @@ body {
   opacity: 1;
   z-index: 10;
 }
+
+/*
 .bio:has(#hobbies:checked) .bio_tabs .hobbies {
+  opacity: 1;
+  z-index: 10;
+}*/
+
+.bio:has(#certificates:checked) .bio_tabs .certificates {
   opacity: 1;
   z-index: 10;
 }
@@ -328,8 +254,8 @@ body {
 .close_btn {
   width: 40px;
   height: 40px;
-  background-color: #fc5d5f;
-  cursor: url("../media/cursor_big.png"), auto !important;
+  background-color: var(--close-btn-color);
+  cursor: var(--cursor-big);
   border-radius: 100%;
   margin: 10px;
   border: 3px solid white;
@@ -359,7 +285,7 @@ body {
 }
 
 .hovy2 {
-  left: 120%;
+  left: -100%;
   top: 45%;
 }
 
@@ -371,7 +297,7 @@ body {
 .hovy1,
 .hovy2,
 .hovy3 {
-  min-width: 100px;
+  min-width: 5vw;
   max-width: 150px;
   height: auto;
   padding: 10px 30px;
@@ -391,14 +317,16 @@ body {
 }
 
 .linkedn-hov {
-  top: -100%;
-  left: -35%;
+  top: -90%;
+  left: -39%;
 }
 
+/*
 .mail-hov {
   top: -120%;
   left: -45%;
 }
+*/
 
 .code-hov {
   top: -90%;
@@ -425,10 +353,10 @@ body {
 
 /* Cursor */
 .cursor {
-  width: 24em;
+  width: 20em;
   margin: 0 auto;
   border-right: 2px solid rgba(0, 0, 0, 0.5);
-  font-size: 15px;
+  font-size: 0.9vw;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -453,10 +381,10 @@ body {
   position: absolute;
   top: 20%;
   left: 30%;
-  cursor: url("../media/cursor_big.png"), auto !important;
+  cursor: var(--cursor-big);
   animation: webAnim 1s infinite ease-in-out;
 
-  filter: drop-shadow(0 0 5px #35d5eb);
+  filter: drop-shadow(0 0 5px var(--blue-shadow));
 }
 
 .thesis_btn {
@@ -469,11 +397,11 @@ body {
   background-size: contain;
   background-position: center center;
   position: absolute;
-  top: 75%;
-  left: 45%;
-  cursor: url("../media/cursor_big.png"), auto !important;
+  top: 70% !important;
+  left: 40%;
+  cursor: var(--cursor-big);
   border: none;
-  filter: drop-shadow(0 0 5px #35d5eb);
+  filter: var(--blue-shadow);
 
   animation: thesAnim 1s -1.5s infinite ease-in-out;
 }
@@ -491,9 +419,9 @@ body {
   border: none;
   left: 60%;
   top: 0;
-  cursor: url("../media/cursor_big.png"), auto !important;
+  cursor: var(--cursor-big);
 
-  filter: drop-shadow(0 0 5px #35d5eb);
+  filter: var(--blue-shadow);
 
   animation: andrAnim 1s -0.8s infinite ease-in-out;
 }
@@ -512,11 +440,11 @@ body {
   position: absolute;
   top: 22%;
   left: 52%;
-  cursor: url("../media/cursor_big.png"), auto !important;
+  cursor: var(--cursor-big);
   border: 2px solid black;
   animation: ghAnim 1s -1s infinite ease-in-out;
 
-  filter: drop-shadow(0 0 5px #35d5eb);
+  filter: var(--blue-shadow);
 }
 
 .linkedn_btn {
@@ -530,10 +458,10 @@ body {
   background-position: center center;
   border-radius: 100%;
   position: absolute;
-  top: 50%;
-  left: 25%;
-  cursor: url("../media/cursor_big.png"), auto !important;
-  filter: drop-shadow(0 0 5px #35d5eb);
+  top: 60%;
+  left: 30%;
+  cursor: var(--cursor-big);
+  filter: var(--blue-shadow);
 
   animation: linAnim 1s -0.5s infinite ease-in-out;
 }
@@ -551,14 +479,15 @@ body {
   position: absolute;
   top: 34%;
   left: 65%;
-  cursor: url("../media/cursor_big.png"), auto !important;
+  cursor: var(--cursor-big);
   border: 2px solid white;
 
-  filter: drop-shadow(0 0 5px #35d5eb);
+  filter: var(--blue-shadow);
 
   animation: codAnim 1s -0.5s infinite ease-in-out;
 }
 
+/*
 .email_btn {
   width: 2.5vw;
   height: 2.5vw;
@@ -572,12 +501,13 @@ body {
   position: absolute;
   top: 65%;
   left: 35%;
-  cursor: url("../media/cursor_big.png"), auto !important;
+  cursor: var(--cursor-big);
   border: 2px solid #444f75;
   animation: emAnim 1s -1.2s infinite ease-in-out;
 
-  filter: drop-shadow(0 0 5px #35d5eb);
+  filter: var(--blue-shadow);
 }
+*/
 
 .cr {
   position: absolute; 
@@ -585,7 +515,7 @@ body {
   display: flex; 
   align-items: end; 
   bottom: 7%;
-  cursor: url("../media/cursor_small.png"), auto !important;
+  cursor: var(--cursor-big);
 }
 
 .credits {
@@ -613,7 +543,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 0;
-  cursor: url("../media/cursor_big.png"), auto;
+  cursor: var(--cursor-big);
 }
 
 
@@ -702,7 +632,8 @@ body {
     top: 34%;
   }
 }
-/*email*/
+/*
+//email
 @keyframes emAnim {
   0% {
     top: 65%;
@@ -715,7 +646,7 @@ body {
   100% {
     top: 65%;
   }
-}
+}*/
 
 @keyframes popIn {
   0% {

@@ -1,0 +1,147 @@
+.certificates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    overflow: hidden;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--bio-bg);
+}
+
+.cert-container {
+    width: 85%;
+    max-height: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.cert-ttl {
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin: 0;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-family: 'Silkscreen';
+}
+
+.cert-gallery {
+    overflow: auto;
+    padding: 3%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+.column {
+    flex: 25%;
+    max-width: 35%;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border: 5px solid var(--bio-bg);
+     box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .column {
+        flex: 100%;
+        max-width: 90%;
+    }
+
+    .row {
+        justify-content: center;
+    }
+}
+
+
+/* ===== CERT MODAL ===== */
+.cert-modal {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    width: 100vw;
+    height: 100vh;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cert-modal::backdrop {
+    backdrop-filter: blur(2px);
+}
+
+/* Remove the .active class styles since popover handles visibility */
+.cert-modal-backdrop {
+    display: none; /* Not needed with popover::backdrop */
+}
+
+/* Modal box */
+.cert-modal-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vw;
+    margin: auto;
+    background: var(--purple-accent);
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Rest of your styles remain the same */
+/* Image */
+.cert-modal-content img {
+    max-width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+/* Close button */
+.cert-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    font-size: 28px;
+    cursor: var(--cursor-big);
+    line-height: 1;
+
+    width: 30px;
+  height: 30px;
+  background-color: var(--close-btn-color);
+  border-radius: 100%;
+  border: 3px solid white;
+}
+
+.cert-close-btn:hover {
+    opacity: 0.7;
+}
+
+/* Clickable cert images */
+.cert-img {
+    cursor: var(--cursor-big);
+    transition: transform 0.2s ease;
+}
+
+.cert-img:hover {
+    transform: scale(1.03);
+}

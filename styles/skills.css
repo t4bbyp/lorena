@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #bbd0ff;
+  background-color: var(--bio-bg);
   overflow: auto;
 }
 .skills-area {
@@ -99,9 +99,9 @@
 }
  
 .todo_expand {
-  background-color: #9381ff;
+  background-color: var(--purple-accent);
   color: #fff;
-  cursor: url("../media/cursor_big.png"), auto !important;
+  cursor: var(--cursor-big);
   padding: 18px;
   width: 100%;
   border: none;
@@ -133,7 +133,7 @@
   height: 80px;
   max-width: 100%;
   margin-top: 0;
-  overflow: hidden;
+  overflow: auto;
   border-radius: 0 0 20px 20px;
 }
 

@@ -6,7 +6,7 @@
     overflow: hidden;
     flex-direction: column;
     gap: 15px;
-    background-color: #bbd0ff;
+    background-color: var(--bio-bg);
 }
 
 
@@ -50,7 +50,7 @@
     padding: 20px;
     font-size: 1.5vmin;
     transition: all 0.4s ease-in-out;
-    cursor: url(../media/cursor_big.png), auto;
+    cursor: var(--cursor-big);
 }
 
 .hobby-list label:hover {

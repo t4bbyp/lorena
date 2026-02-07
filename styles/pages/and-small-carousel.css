@@ -1,0 +1,15 @@
+.column {
+  width: 18% !important;
+  margin: 5px 10px 5px 10px !important;
+}
+
+.wrapper {
+  width: 70% !important;
+}
+
+.small-prev,
+.small-next {
+  font-size: 10px !important;
+  width: 3.5vmin !important;
+  height: 3.5vmin !important;
+}
