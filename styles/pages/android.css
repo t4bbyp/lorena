@@ -29,6 +29,7 @@
 .imege {
   max-height: auto !important;
   aspect-ratio: 1/2 !important;
+  border-radius: 0 !important;
 }
 
 .numbertext {
