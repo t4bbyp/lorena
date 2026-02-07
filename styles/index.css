@@ -397,7 +397,7 @@ body {
   background-size: contain;
   background-position: center center;
   position: absolute;
-  top: 70% !important;
+  top: 70%;
   left: 40%;
   cursor: var(--cursor-big);
   border: none;
@@ -565,15 +565,15 @@ body {
 /*thesis*/
 @keyframes thesAnim {
   0% {
-    top: 75%;
+    top: 65%;
   }
 
   50% {
-    top: 76%;
+    top: 66%;
   }
 
   100% {
-    top: 75%;
+    top: 65%;
   }
 }
 /*android*/
