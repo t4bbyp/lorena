@@ -70,19 +70,17 @@
     },
     { "id": 5, "name": "PHP Forum", "status": "in progress", "description": "<p><b>Purpose:</b> Started as a hands-on way to learn Bootstrap, this project quickly grew into a more ambitious goal: building a complete, customizable forum system while practicing core web development skills.</p><p><b>Concept:</b> Inspired by phpBB forums and my past experience with them. While the forum doesn't have a specific theme yet, it serves as a base for experimenting with web development techniques and simulating real-world features.</p> <p><b>Current technologies: </b>HTML, CSS, Bootstrap 5, PHP, MySQL, XAMPP</p><p><b>Planned features:</b></p><ul style='padding-left: 3vw; margin-bottom: 0;'><li>Extended profile system with editable user information.</li><li>Integration of a rich text editor (e.g., BBCode or CKEditor—or potentially a custom-built solution).</li><li>Admin panel for content and user management.</li><li>Visual refinement and final design adjustments.</li><li>Usability improvements and interface polishing.</li></ul>",
       "thumbnail" : {
-        "link" : "../media/projects/web/foro/index.webp",
+        "link" : "../media/projects/web/foro/header.webp",
         "aspectRatio" : "2/1",
         "width" : "25%"
       },
       "imgs" : [
+        "../media/projects/web/foro/header.webp",
         "../media/projects/web/foro/index.webp",
-        "../media/projects/web/foro/index2.webp",
         "../media/projects/web/foro/threads.webp",
-        "../media/projects/web/foro/post.webp",
-        "../media/projects/web/foro/post2.webp",
-        "../media/projects/web/foro/new.webp",
+        "../media/projects/web/foro/posts.webp",
         "../media/projects/web/foro/profile.webp",
-        "../media/projects/web/foro/register.webp",
+        "../media/projects/web/foro/signin.webp",
         "../media/projects/web/foro/login.webp"
       ]
     },
