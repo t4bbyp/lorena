@@ -2,7 +2,17 @@
   { "name": "HTML", "icon": "media/skills/html.webp" },
   { "name": "CSS", "icon": "media/skills/css.webp" },
   { "name": "Bootstrap 5", "icon": "media/skills/bs.webp" },
+  { "name": "Tailwind CSS", "icon": "media/skills/tw.webp"},
+  { "name": "Framer Motion", "icon": "media/skills/fm.webp"},
+  
   { "name": "JavaScript", "icon": "media/skills/js.webp" },
+  { "name": "TypeScript", "icon": "media/skills/ts.webp"},
+
+  { "name": "React", "icon": "media/skills/react.webp"},
+  { "name": "Redux", "icon": "media/skills/redux.webp"},
+  { "name": "Next.js". "icon": "media/skills/nextjs.webp"},
+  { "name": "Tanstack Query", "icon": "media/skills/tsq.webp"},
+  { "name": "Jest", "icon": "media/skills/jest.webp"},
 
   { "name": "Java", "icon": "media/skills/java.webp" },
   { "name": "Python", "icon": "media/skills/py.webp" },
@@ -18,7 +28,6 @@
   { "name": "GitHub", "icon": "media/skills/gh.webp" },
   { "name": "ngrok", "icon": "media/skills/ng.webp" },
 
-
   { "name": "Maps API", "icon": "media/skills/maps.webp" },
   { "name": "AWS EC2", "icon": "media/skills/aws.webp" },
   { "name": "OpenCV", "icon": "media/skills/ocv.webp" },
@@ -26,7 +35,6 @@
   { "name": "PlatformIO", "icon": "media/skills/pio.webp" },
   { "name": "Mosquitto MQTT", "icon": "media/skills/mqtt.webp" },
   { "name": "PySimpleGUI", "icon": "media/skills/pgui.webp" },
-  
   
   { "name": "Android Studio", "icon": "media/skills/ast.webp" },
   { "name": "VS Code", "icon": "media/skills/vsc.webp" },
