@@ -10,7 +10,7 @@
 
   { "name": "React", "icon": "media/skills/react.webp"},
   { "name": "Redux", "icon": "media/skills/redux.webp"},
-  { "name": "Next.js". "icon": "media/skills/nextjs.webp"},
+  { "name": "Next.js", "icon": "media/skills/nextjs.webp"},
   { "name": "Tanstack Query", "icon": "media/skills/tsq.webp"},
   { "name": "Jest", "icon": "media/skills/jest.webp"},
 
