@@ -1,52 +1,86 @@
 {
   "levels": [
-    { "id": 1, "x": 20, "y": 30 },
-    { "id": 2, "x": 40, "y": 75 },
-    { "id": 3, "x": 65, "y": 20},
-    { "id": 4, "x": 80, "y": 60},
-    {"id": 5, "x": 115, "y": 80}, 
-    {"id":6, "x": 150, "y": 50}
+    { "id": 1, "x": 20, "y": 65 },
+    { "id": 2, "x": 40, "y": 30 },
+    { "id": 3, "x": 60, "y": 75 },
+    { "id": 4, "x": 85, "y": 20 },
+    { "id": 5, "x": 100, "y": 60 },
+    { "id": 6, "x": 135, "y": 80 },
+    { "id": 7, "x": 170, "y": 50 }
   ],
   "connections": [
     [1, 2],
     [2, 3],
     [3, 4],
     [4, 5],
-    [5, 6]
+    [5, 6],
+    [6, 7]
   ],
   "projects": [
-    { "id": 1 , "name": "Snake Game", "status": "completed", "description": "<p><b>Link:</b> <a target='_blank' href='https://codepen.io/TabbyP/pen/WbwRVNB' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>Snake CodePen</a></p><p><b>Description:</b> Based on the classic Snake game, this is one of the great practical projects within the <a target='_blank' href='https://exercism.org/courses/front-end-fundamentals'>Exercism Bootcamp</a>. When the game starts, a small snake appears on the screen and it can be moved using the arroy keys on the keyboard. A white particle appears on random parts of the game area, for the snake to eat said particles and grow longer. If the snake's head clashes with the edge of the area or against its own body, the game ends on a loss.</a><p><b>Technologies:</b> HTML, CSS, JS.",
-      "thumbnail" : {
-        "link" : "../media/projects/web/snake/start.webp",
-        "aspectRatio" : "2/1",
-        "width" : "25%"
+    {
+      "id": 1,
+      "name": "Love-Matching Quiz for RP Forum",
+      "status": "completed",
+      "description": "<p><b>Link:</b> <a href='https://t4bbyp.github.io/tori-quiz/' target='_blank' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold;'>Romance in the Tower</a></p><p><b>Description:</b> A personality quiz web app built for a small community of friends who participate in a Spanish role-play forum. Users answer a series of questions and are matched with the top 3 most romantically compatible characters from the forum's main story setting. The project started as a simple React practice exercise but naturally grew into a full multi-page application with a character management system, restricted to authenticated users, that allows forum members to add and edit their own characters and their quiz data.</p><p><b>Technologies:</b> JavaScript, React (Vite), React Router, React Portals, Supabase (database & authentication), i18next (EN/ES localization), CSS Modules, GitHub Pages.</p>",
+      "thumbnail": {
+        "link": "../media/projects/web/love-quiz/home.png",
+        "aspectRatio": "2/1",
+        "width": "25%"
       },
-      "imgs" : [
+      "imgs": [
+        "../media/projects/web/love-quiz/home.png",
+        "../media/projects/web/love-quiz/test.png",
+        "../media/projects/web/love-quiz/chara_desc.png",
+        "../media/projects/web/love-quiz/login.png",
+        "../media/projects/web/love-quiz/add_chara.png",
+        "../media/projects/web/love-quiz/edit_chara.png",
+        "../media/projects/web/love-quiz/faq.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Snake Game",
+      "status": "completed",
+      "description": "<p><b>Link:</b> <a target='_blank' href='https://codepen.io/TabbyP/pen/WbwRVNB' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>Snake CodePen</a></p><p><b>Description:</b> Based on the classic Snake game, this is one of the great practical projects within the <a target='_blank' href='https://exercism.org/courses/front-end-fundamentals'>Exercism Bootcamp</a>. When the game starts, a small snake appears on the screen and it can be moved using the arroy keys on the keyboard. A white particle appears on random parts of the game area, for the snake to eat said particles and grow longer. If the snake's head clashes with the edge of the area or against its own body, the game ends on a loss.</a><p><b>Technologies:</b> HTML, CSS, JS.</p>",
+      "thumbnail": {
+        "link": "../media/projects/web/snake/start.webp",
+        "aspectRatio": "2/1",
+        "width": "25%"
+      },
+      "imgs": [
         "../media/projects/web/snake/start.webp",
         "../media/projects/web/snake/game.webp",
         "../media/projects/web/snake/loss.webp"
       ]
-  },
-    { "id": 2, "name": "Breakout Game", "status": "completed", "description": "<p><b>Link:</b> <a href='https://codepen.io/TabbyP/pen/MYyJNWw' target='_blank' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>Breakout CodePen</a></p><p><b>Description:</b> Based on the classic Breakout game, this is one of the great practical projects within the <a target='_blank' href='https://exercism.org/courses/front-end-fundamentals'>Exercism Bootcamp</a>. It involves creating a few rows of colored blocks and a ball that moves around, bouncing off the game area's edges and a paddle, breaking the blocks on touch and displaying different messages based on a win or a loss.</a><p><b>Technologies:</b> HTML, CSS, JS.",
-      "thumbnail" : {
-        "link" : "../media/projects/web/breakout/start.webp",
-        "aspectRatio" : "2/1",
-        "width" : "25%"
+    },
+    {
+      "id": 3,
+      "name": "Breakout Game",
+      "status": "completed",
+      "description": "<p><b>Link:</b> <a href='https://codepen.io/TabbyP/pen/MYyJNWw' target='_blank' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>Breakout CodePen</a></p><p><b>Description:</b> Based on the classic Breakout game, this is one of the great practical projects within the <a target='_blank' href='https://exercism.org/courses/front-end-fundamentals'>Exercism Bootcamp</a>. It involves creating a few rows of colored blocks and a ball that moves around, bouncing off the game area's edges and a paddle, breaking the blocks on touch and displaying different messages based on a win or a loss.</a><p><b>Technologies:</b> HTML, CSS, JS.</p>",
+      "thumbnail": {
+        "link": "../media/projects/web/breakout/start.webp",
+        "aspectRatio": "2/1",
+        "width": "25%"
       },
-      "imgs" : [
+      "imgs": [
         "../media/projects/web/breakout/start.webp",
         "../media/projects/web/breakout/game.webp",
         "../media/projects/web/breakout/win.webp",
         "../media/projects/web/breakout/loss.webp"
       ]
     },
-    { "id": 3, "name": "PHP Forum", "status": "in progress", "description": "<p><b>Purpose:</b> Started as a hands-on way to learn Bootstrap, this project quickly grew into a more ambitious goal: building a complete, customizable forum system while practicing core web development skills.</p><p><b>Concept:</b> Inspired by phpBB forums and my past experience with them. While the forum doesn't have a specific theme yet, it serves as a base for experimenting with web development techniques and simulating real-world features.</p> <p><b>Current technologies: </b>HTML, CSS, Bootstrap 5, PHP, MySQL, XAMPP</p><p><b>Planned features:</b></p><ul style='padding-left: 3vw; margin-bottom: 0;'><li>Extended profile system with editable user information.</li><li>Integration of a rich text editor (e.g., BBCode or CKEditor—or potentially a custom-built solution).</li><li>Admin panel for content and user management.</li><li>Visual refinement and final design adjustments.</li><li>Usability improvements and interface polishing.</li></ul>",
-      "thumbnail" : {
-        "link" : "../media/projects/web/foro/header.webp",
-        "aspectRatio" : "2/1",
-        "width" : "25%"
+    {
+      "id": 4,
+      "name": "PHP Forum",
+      "status": "in progress",
+      "description": "<p><b>Purpose:</b> Started as a hands-on way to learn Bootstrap, this project quickly grew into a more ambitious goal: building a complete, customizable forum system while practicing core web development skills.</p><p><b>Concept:</b> Inspired by phpBB forums and my past experience with them. While the forum doesn't have a specific theme yet, it serves as a base for experimenting with web development techniques and simulating real-world features.</p> <p><b>Current technologies: </b>HTML, CSS, Bootstrap 5, PHP, MySQL, XAMPP</p><p><b>Planned features:</b></p><ul style='padding-left: 3vw; margin-bottom: 0;'><li>Extended profile system with editable user information.</li><li>Integration of a rich text editor (e.g., BBCode or CKEditor—or potentially a custom-built solution).</li><li>Admin panel for content and user management.</li><li>Visual refinement and final design adjustments.</li><li>Usability improvements and interface polishing.</li></ul>",
+      "thumbnail": {
+        "link": "../media/projects/web/foro/header.webp",
+        "aspectRatio": "2/1",
+        "width": "25%"
       },
-      "imgs" : [
+      "imgs": [
         "../media/projects/web/foro/header.webp",
         "../media/projects/web/foro/index.webp",
         "../media/projects/web/foro/threads.webp",
@@ -56,13 +90,17 @@
         "../media/projects/web/foro/login.webp"
       ]
     },
-    { "id": 4, "name": "La Torre", "status": "completed", "description": "<p><b>Forum version:</b> phpBB3</p><p><b>Hosted by:</b> <a target='_blank' href='https://www.foroactivo.com' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold;'>ForoActivo</a></p><p><b>Link: </b> <a target='_blank' href='https://latorre.foroactivo.com' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold;'>La Torre</a></p><p><b>Purpose:</b> Collaborative redesign project for a long-standing narrative role-play forum, working alongside other users to refresh its visual identity and user experience.</p><p><b>Technologies: </b>HTML, CSS, and JavaScript — integrated through ForoActivo’s customization panel, which allows access to HTML templates, the main CSS file, and additional JS scripting.</p><p><b>My Role:</b> Contributed to HTML and CSS adjustments for layout and structure, and collaborated on selecting images and defining the color palette for a cohesive visual theme.</p>",
-      "thumbnail" : {
-        "link" : "../media/projects/web/torre/index.webp",
-        "aspectRatio" : "2/1",
-        "width" : "25%"
+    {
+      "id": 5,
+      "name": "La Torre",
+      "status": "completed",
+      "description": "<p><b>Forum version:</b> phpBB3</p><p><b>Hosted by:</b> <a target='_blank' href='https://www.foroactivo.com' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold;'>ForoActivo</a></p><p><b>Link: </b> <a target='_blank' href='https://latorre.foroactivo.com' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold;'>La Torre</a></p><p><b>Purpose:</b> Collaborative redesign project for a long-standing narrative role-play forum, working alongside other users to refresh its visual identity and user experience.</p><p><b>Technologies: </b>HTML, CSS, and JavaScript — integrated through ForoActivo’s customization panel, which allows access to HTML templates, the main CSS file, and additional JS scripting.</p><p><b>My Role:</b> Contributed to HTML and CSS adjustments for layout and structure, and collaborated on selecting images and defining the color palette for a cohesive visual theme.</p>",
+      "thumbnail": {
+        "link": "../media/projects/web/torre/index.webp",
+        "aspectRatio": "2/1",
+        "width": "25%"
       },
-      "imgs" : [
+      "imgs": [
         "../media/projects/web/torre/index.webp",
         "../media/projects/web/torre/index3.webp",
         "../media/projects/web/torre/threads.webp",
@@ -71,26 +109,34 @@
         "../media/projects/web/torre/post.webp"
       ]
     },
-    { "id": 5, "name": "Old portofolio", "status": "completed", "description": "<p><b>Link:</b> <a href='https://t4bbyp.github.io/portofolio/index.html' target='_blank' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>Portofolio 1.0</a></p><p><b>Description:</b> My first portofolio website showcasing previous projects and skills.<p><b>Technologies:</b> HTML, CSS, Bootstrap 5.",
-      "thumbnail" : {
-        "link" : "../media/projects/web/old-porto/index.webp",
-        "aspectRatio" : "2/1",
-        "width" : "25%"
+    {
+      "id": 6,
+      "name": "Old portofolio",
+      "status": "completed",
+      "description": "<p><b>Link:</b> <a href='https://t4bbyp.github.io/portofolio/index.html' target='_blank' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>Portofolio 1.0</a></p><p><b>Description:</b> My first portofolio website showcasing previous projects and skills.<p><b>Technologies:</b> HTML, CSS, Bootstrap 5.</p>",
+      "thumbnail": {
+        "link": "../media/projects/web/old-porto/index.webp",
+        "aspectRatio": "2/1",
+        "width": "25%"
       },
-      "imgs" : [
+      "imgs": [
         "../media/projects/web/old-porto/index.webp",
         "../media/projects/web/old-porto/index2.webp",
         "../media/projects/web/old-porto/list.webp",
         "../media/projects/web/old-porto/project.webp"
       ]
-    }, 
-    { "id": 6, "name": "More", "status": "neverending", "description": "<p><b>Link:</b> <a target='_blank' href='https://codepen.io/TabbyP' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>CodePen Profile</a></p><p><b>Description:</b> My Codepen page where I collect different small works of mine I have made since I learned HTML/CSS in 2014, mostly for my narrative RPG hobby, up until present. Please, feel free to check it out!",
-      "thumbnail" : {
-        "link" : "../media/projects/web/more/tmbn.webp",
-        "aspectRatio" : "2/1",
-        "width" : "15%"
+    },
+    {
+      "id": 7,
+      "name": "More",
+      "status": "neverending",
+      "description": "<p><b>Link:</b> <a target='_blank' href='https://codepen.io/TabbyP' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold'>CodePen Profile</a></p><p><b>Description:</b> My Codepen page where I collect different small works of mine I have made since I learned HTML/CSS in 2014, mostly for my narrative RPG hobby, up until present. Please, feel free to check it out!</p>",
+      "thumbnail": {
+        "link": "../media/projects/web/more/tmbn.webp",
+        "aspectRatio": "2/1",
+        "width": "15%"
       },
-      "imgs" : [
+      "imgs": [
         "../media/projects/web/more/one.webp",
         "../media/projects/web/more/two.webp",
         "../media/projects/web/more/three.webp"
