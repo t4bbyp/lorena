@@ -23,18 +23,20 @@
       "status": "completed",
       "description": "<p><b>Link:</b> <a href='https://t4bbyp.github.io/tori-quiz/' target='_blank' style='text-decoration: none; color: rgb(87, 155, 87); font-weight: bold;'>Romance in the Tower</a></p><p><b>Description:</b> A personality quiz web app built for a small community of friends who participate in a Spanish role-play forum. Users answer a series of questions and are matched with the top 3 most romantically compatible characters from the forum's main story setting. The project started as a simple React practice exercise but naturally grew into a full multi-page application with a character management system, restricted to authenticated users, that allows forum members to add and edit their own characters and their quiz data.</p><p><b>Technologies:</b> JavaScript, React (Vite), React Router, React Portals, Supabase (database & authentication), i18next (EN/ES localization), CSS Modules, GitHub Pages.</p>",
       "thumbnail": {
-        "link": "../media/projects/web/love-quiz/home.png",
+        "link": "../media/projects/web/love-quiz/home.webp",
         "aspectRatio": "2/1",
         "width": "25%"
       },
       "imgs": [
-        "../media/projects/web/love-quiz/home.png",
-        "../media/projects/web/love-quiz/test.png",
-        "../media/projects/web/love-quiz/chara_desc.png",
-        "../media/projects/web/love-quiz/login.png",
-        "../media/projects/web/love-quiz/add_chara.png",
-        "../media/projects/web/love-quiz/edit_chara.png",
-        "../media/projects/web/love-quiz/faq.png"
+        "../media/projects/web/love-quiz/home.webp",
+        "../media/projects/web/love-quiz/test.webp",
+        "../media/projects/web/love-quiz/results.webp",
+        "../media/projects/web/love-quiz/chara_list.webp",
+        "../media/projects/web/love-quiz/chara_desc.webp",
+        "../media/projects/web/love-quiz/login.webp",
+        "../media/projects/web/love-quiz/add_chara.webp",
+        "../media/projects/web/love-quiz/edit_chara.webp",
+        "../media/projects/web/love-quiz/faq.webp"
       ]
     },
     {
