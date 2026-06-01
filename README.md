@@ -1,4 +1,4 @@
-# Lorena Portfolio
+# Lorena's Portfolio
 
 A personal portfolio website designed to showcase my projects, technical skills, education, and learning journey as a junior developer.
 
@@ -27,15 +27,7 @@ https://t4bbyp.github.io/lorena/
 * Vanilla JavaScript
 * JSON
 * GitHub Pages
-
-## Technical Highlights
-
-- Generated project layouts from JSON data rather than hardcoded HTML
-- Dynamic SVG path generation for project-map connections
-- Runtime creation of project windows and image galleries
-- Fetch API used to load and render portfolio content
-- Modular JavaScript structure separating content from presentation
-
+  
 ## Why I Built This
 
 As an aspiring software developer without professional industry experience yet, I wanted a dedicated space where I could gather the projects I've created while learning and practicing programming.
@@ -57,4 +49,5 @@ Through this project I practiced:
 ## Credits
 
 Most of the design, artwork, images, and written content were created by me.
+
 External resources used within the project are credited directly inside the portfolio.
