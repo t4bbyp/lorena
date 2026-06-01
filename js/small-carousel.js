@@ -67,7 +67,7 @@
       });
     } else {
       // manual cycling for small carousels
-      let curIndex = 0; // start from first image
+      curIndex = 0; // start from first image
 
       function showImage(index) {
         if (activeElement) activeElement.classList.remove("active");

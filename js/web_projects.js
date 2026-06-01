@@ -100,8 +100,8 @@
                               smallImg.style.aspectRatio = d.style.aspectRatio;
 
                               smallImg.innerHTML = `
-                                <img class="demo cursor box_inner" src="${img}" style="width: 100%;" onclick="currentSlide(${i + 1})">
-                              `;
+  <img class="demo cursor box_inner" src="${img}" style="width: 100%;">
+`;
                               
                               wrapper.appendChild(smallImg);
                             });
