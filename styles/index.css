@@ -471,9 +471,10 @@ body {
   height: 3.5vw;
   min-width: 50px;
   min-height: 50px;
-  background: url(https://assets.codepen.io/1584356/codepen.png);
+  background-color: black;
+  background-image: url(https://blog.codepen.io/wp-content/uploads/2023/09/logo-white.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 65%;
   background-position: center center;
   border-radius: 100%;
   position: absolute;
